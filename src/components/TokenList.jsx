@@ -50,7 +50,7 @@ const TokenList = ({title, active, items, selected, toggleSelected, stats}) => {
 
   return (
     <div className="w-full" style={{
-      border:'4px rgba(42,35,30,1.0) solid', 
+      border:'4px #7A7A7A solid', 
       borderTop:0, 
       borderRight:0, 
       padding:'2px',
@@ -68,7 +68,7 @@ const TokenList = ({title, active, items, selected, toggleSelected, stats}) => {
             return (
               <Woolf
                 woolf={parseGraphObject(item)}
-                itemId={item.id} // NOTE: itemId is required for track items
+                itemId={item.id}
                 title={item.id}
                 key={item.id}
                 onClick={() => handleClick(item)}

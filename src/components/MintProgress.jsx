@@ -3,7 +3,7 @@ const MintProgress = ({ minted, maxTokens }) => {
     <div className="w-full flex flex-col justify-center items-center">
       <div
         className="w-full relative"
-        style={{ height: "48px", border: "solid black 8px" }}
+        style={{ height: "48px", border: "solid #7A7A7A 8px" }}
       >
         <div
           className="bg-red"
